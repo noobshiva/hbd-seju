@@ -46,7 +46,7 @@ $('document').ready(function(){
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
-		$(this).fadeOut('slow').delay(6000).promise().done(function(){
+		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 	});
